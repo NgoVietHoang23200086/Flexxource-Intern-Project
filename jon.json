@@ -1,0 +1,49 @@
+{
+  "_ghi_chu": "Dinh dang: pumps = [[so_bom, so_gram], ...]. Cac bom TRONG CUNG 1 STEP chay SONG SONG. Cac STEP chay TUAN TU.",
+  "description": "Vi du chuoi 4 step — 490g/ml tong cong (< 500ml gioi han)",
+  "density_g_per_ml": 1.0,
+  "max_ml_per_cup": 500,
+  "steps": [
+    {
+      "_ghi_chu": "step1: bom 1 va bom 3 chay SONG SONG",
+      "name": "step1",
+      "pumps": [
+        [1, 80],
+        [3, 80]
+      ]
+    },
+    {
+      "_ghi_chu": "step2: bom 7 va bom 9 chay SONG SONG",
+      "name": "step2",
+      "pumps": [
+        [7, 80],
+        [9, 80]
+      ]
+    },
+    {
+      "_ghi_chu": "step3: bom 8 va bom 1 chay SONG SONG",
+      "name": "step3",
+      "pumps": [
+        [8, 50],
+        [1, 50]
+      ]
+    },
+    {
+      "_ghi_chu": "step_cuoi: ca 10 bom chay CUNG LUC — moi bom 7g",
+      "name": "step_cuoi",
+      "pumps": [
+        [1,  7],
+        [2,  7],
+        [3,  7],
+        [4,  7],
+        [5,  7],
+        [6,  7],
+        [7,  7],
+        [8,  7],
+        [9,  7],
+        [10, 7]
+      ]
+    }
+  ]
+  
+}
